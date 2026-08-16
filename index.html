@@ -5,27 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SellingCameroon.com | Premium Cameroon Exports | Powered by BELO FINANCE</title>
   <meta name="description" content="Verified exporter of Cameroon Hardwood Charcoal, Coffee, Cocoa, Shea Butter, Gold, Ginger. FLEGT docs. MOQ 20MT. Powered by BELO FINANCE. Douala, Cameroon.">
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; color:#222; }
-    header { background:#0A4D2A; color:white; padding:20px; text-align:center; }
-    header h1 { margin:0; color:#FFD700; }
-    .btn { background:#FFD700; color:#0A4D2A; padding:12px 20px; text-decoration:none; border-radius:5px; font-weight:bold; }
-    .products { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; padding:40px; }
-    .card { border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center; }
-    .card img { width:100%; height:180px; object-fit:cover; border-radius:8px; }
-    footer { background:#0A4D2A; color:white; text-align:center; padding:20px; }
-  </style>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Override theme stylesheet -->
+  <link rel="stylesheet" href="assets/css/custom-theme.css">
 </head>
 <body>
 
-<header>
-  <h1>SELLINGCAMEROON.COM</h1>
-  <p>Powered by BELO FINANCE | Verified Export Facilitator | Douala, Cameroon</p>
-  <a href="https://wa.me/237682960440" class="btn">WhatsApp +237 682 960 440</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">SELLINGCAMEROON.COM</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="https://wa.me/237682960440" class="btn btn-accent cta-btn">WhatsApp +237 682 960 440</a>
+  </div>
+  <p class="header-sub">Powered by BELO FINANCE | Verified Export Facilitator | Douala, Cameroon</p>
 </header>
 
-<section style="padding:40px; text-align:center;">
-  <h2>6 Flagship Products - MOQ 20MT</h2>
+<section id="hero" class="hero container">
+  <div class="hero-copy">
+    <h1 class="title">Cameroon's Trusted Export Hub</h1>
+    <p class="subtitle">Verified exporter of Hardwood Charcoal, Coffee, Cocoa, Shea Butter, Gold and Ginger. MOQ 20MT. FLEGT documentation available. Supplying to UAE, EU, Turkey, USA.</p>
+    <div class="hero-ctas">
+      <a href="#products" class="btn btn-primary">View Products</a>
+      <a href="mailto:info@sellingcameroon.com" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-image" aria-hidden="true">
+    <!-- decorative image or leave empty to keep simple -->
+    <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=1200&q=60" alt="" />
+  </div>
+</section>
+
+<section id="products" class="container products-section">
+  <h2 class="section-title">6 Flagship Products - MOQ 20MT</h2>
   <div class="products">
     
     <div class="card">
@@ -67,16 +84,18 @@
   </div>
 </section>
 
-<section style="background:#f5f5f5; padding:40px; text-align:center;">
+<section id="services" class="container services-section">
   <h2>Powered by BELO FINANCE</h2>
   <p>We structure, QC, and facilitate exports so you buy with confidence.</p>
-  <p><b>Services:</b> Sourcing → Quality Control → Documentation → Logistics → Loading at Douala Port → Shipping</p>
+  <p><strong>Services:</strong> Sourcing → Quality Control → Documentation → Logistics → Loading at Douala Port → Shipping</p>
 </section>
 
-<footer>
-  <p>Email: info@sellingcameroon.com | WhatsApp: +237 682 960 440</p>
-  <p>Port: Douala, Cameroon | Exporting to UAE • EU • Turkey • USA</p>
-  <p>© 2026 SellingCameroon.com - Powered by BELO FINANCE</p>
+<footer id="contact" class="footer">
+  <div class="container">
+    <p>Email: <a href="mailto:info@sellingcameroon.com">info@sellingcameroon.com</a> | WhatsApp: <a href="https://wa.me/237682960440">+237 682 960 440</a></p>
+    <p>Port: Douala, Cameroon | Exporting to UAE • EU • Turkey • USA</p>
+    <p>© 2026 SellingCameroon.com - Powered by BELO FINANCE</p>
+  </div>
 </footer>
 
 </body>
